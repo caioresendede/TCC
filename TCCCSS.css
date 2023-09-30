@@ -17,6 +17,21 @@
                 width: 200px;
                 height: 40px;}
 
+            table.calen {
+                    position: absolute;
+                    top: 2350px; left: 20px;
+                    text-align: center;
+                    border: 2px solid  rgb(145, 102, 172);
+                    border-radius: 20px;
+                    padding: 10px;
+                    background-color: rgb(199, 160, 224);}
+                
+            td.calend {
+                    text-align: center;
+                    border-radius: 20px;
+                    padding: 10px;
+                    background-color: rgb(199, 160, 224);}
+
             
             
             a.time3{
@@ -50,7 +65,7 @@
 
             form.cadastro {
                 position: absolute;
-                top:550px;
+                top:2800px;
                 text-align: center;
                 color: white;
                 font-family:monospace;}
@@ -101,7 +116,10 @@
 
 
 
-
+            td:hover{
+                
+                background-color: rgb(145, 102, 172);        
+                transition: 0.5s;}
             li.menu:hover{
                 background-color: rgb(190, 35, 144);
                 border-radius: 15px;
@@ -206,3 +224,10 @@
                     color: rgb(33, 25, 51);
                     background-color: rgb(255, 39, 183);
                     text-align: center;}
+            
+                
+                
+
+
+            
+            
